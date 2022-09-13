@@ -20,3 +20,4 @@ int main(void)
         printf("size of a long int: %ld byte(s)\n", sizeof(li));
         printf("size of a long long: %ld byte(s)\n", sizeof(lli));
 	return (0);
+}
