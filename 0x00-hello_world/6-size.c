@@ -7,7 +7,7 @@
  * print the size of each data type
  * return: 0
  */
-int main(void)
+void main(void)
 {
 	char c;
 	int i;
