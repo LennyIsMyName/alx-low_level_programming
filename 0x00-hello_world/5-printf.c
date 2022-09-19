@@ -5,9 +5,9 @@
  *
  * Description: using the main function
  *
- * print "with proper grammar, but the outcome is a piece of art,"
+ * print 'with proper grammar, but the outcome is a piece of art,'
  *
- * Return: 0
+ * Return: (0)
  */
 int main(void)
 {
