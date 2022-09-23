@@ -21,6 +21,6 @@ char *leet(char *n)
 				n[i] = b[j];
 			}
 		}
-		return (n);
 	}
+	return (n);
 }
