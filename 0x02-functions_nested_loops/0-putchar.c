@@ -2,12 +2,9 @@
 
 /**
  * main - print putchar
- * Return: always 0
+ * Return: always success on 1
  */
-
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-
-	return (0);
+	return (write(1, &c, 1));
 }
