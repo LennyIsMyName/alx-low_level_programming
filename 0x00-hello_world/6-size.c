@@ -1,24 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
- *
+ * main - print the type
  * Description: using the maing function
  * print the size of each data type
  * return: 0
  */
-void main(void)
+int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
-	float f;
-
-	printf("size of a char: %lu byte(s)\n", sizeof(c));
-	printf("size of an int: %lu byte(s)\n", sizeof(i));
-	printf("size of a long int: %lu byte(s)\n", sizeof(li));
-	printf("size of a long long: %lu byte(s)\n", sizeof(lli));
-	printf("size of a float: %lu byte(s)\n", sizeof(f));
+	printf("size of a char: %lu\r byte(s)\n", sizeof(char));
+	printf("size of an int: %lu\r byte(s)\n", sizeof(int));
+	printf("size of a double: %lu\r byte(s)\n", sizeof(double));
+	printf("size of a short: %lu\r byte(s)\n", sizeof(short));
+	printf("size of a long: %lu\r byte(s)\n", sizeof(long));
+	printf("size of a float: %lu\r byte(s)\n", sizeof(float));
 	return (0);
 }
