@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	int j = 9;
+	int j = 9\n;
 
 	for (i = 0; i < 9; i++)
 	{
@@ -16,6 +16,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	putchar(j + '0\n');
+	putchar(j + '0');
 	return (0);
 }
