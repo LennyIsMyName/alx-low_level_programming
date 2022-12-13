@@ -1,10 +1,21 @@
-#include "main.h"
-#include <unistd.h>
+#include <stdio.h>
+
 /**
- * main - print putchar
- * Return: always success on 1
+ * main- main entry
+ * Return: always zero
  */
-int _putchar(char c)
+
+int main(void)
 {
-	return (write(1, &c, 1));
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	
+	return (0);
 }
