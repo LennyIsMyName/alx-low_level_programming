@@ -3,7 +3,7 @@
 /**
  * main- main entry
  * Return: always zero
- *
+ * @c: the character to be printed
  */
 int _putchar(char c);
 
