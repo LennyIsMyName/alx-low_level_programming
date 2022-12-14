@@ -6,7 +6,7 @@
  * Return: j
  */
 
-int _abs(i)
+int _abs(int i)
 {
 	int j = abs(i);
 
