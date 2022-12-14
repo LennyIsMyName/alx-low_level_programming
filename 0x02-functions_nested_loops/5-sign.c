@@ -3,8 +3,10 @@
 /**
  * print_sign - prints the sign
  * @n: sample
+ *
  * Return: 0 or 1
  * @c: the input char
+ *
  * _putchar - inputs char
  */
 int _putchar(char c);
