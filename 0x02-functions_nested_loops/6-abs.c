@@ -5,5 +5,5 @@
  */
 int _abs(int i)
 {
-	abs(i);
+	int abs(int i);
 }
