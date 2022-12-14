@@ -3,6 +3,7 @@
 /**
  * main- main entry
  * Return: always zero
+ *
  */
 int _putchar(char c);
 
