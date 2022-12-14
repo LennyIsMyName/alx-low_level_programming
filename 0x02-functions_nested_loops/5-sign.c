@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints the sign
- * @n: no. to test
+ * @n: sample
  * Return: 0 or 1
  * @c: the input char
  * _putchar - inputs char
