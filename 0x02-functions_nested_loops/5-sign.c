@@ -5,7 +5,7 @@
  * @n: the input
  * Return: 0 or 1
  * @c: the input char
- * _putchar - inputs the character
+ * _putchar - inputs char
  */
 int _putchar(char c);
 
