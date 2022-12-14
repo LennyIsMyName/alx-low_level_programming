@@ -2,6 +2,8 @@
 
 /**
  * print_alphabet_x10 - prints alphabets 10 times
+ * _putchar - prints characters
+ * @c: the char to be printed.
  */
 
 int _putchar(char c);
@@ -9,9 +11,10 @@ int _putchar(char c);
 void print_alphabet_x10(void)
 {
 	int j;
+	char i = 'a';
+
 	for (j = 0; j <= 10; j++)
 	{
-	char i = 'a';
 
 	while (i <= 'z')
 	{
