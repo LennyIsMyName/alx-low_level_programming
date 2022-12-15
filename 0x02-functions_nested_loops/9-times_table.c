@@ -2,8 +2,9 @@
 
 /**
  * _putchar - prints char
- * times_table - prints char
+ * times_table - prints times table
  * @c: para
+ * Return: zero
  */
 
 int _putchar(char c);
@@ -25,4 +26,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-}	
+}
