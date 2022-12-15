@@ -2,8 +2,8 @@
 
 /**
  * _putchar - prints char
- * times_table - prints times table
  * @c: para
+ * times_table - output the timetable
  * Return: zero
  */
 
