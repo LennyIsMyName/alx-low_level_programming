@@ -3,7 +3,7 @@
 /**
  * _putchar - prints char
  * @c: para
- * void times_table - output the timetable
+ * times_table - output the timetable
  * Return: zero
  */
 
