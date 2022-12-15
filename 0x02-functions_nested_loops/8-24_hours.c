@@ -5,7 +5,7 @@
  * Return: always 0
  */
 
-int _putchar(void);
+void _putchar();
 
 void jack_bauer(void)
 {
