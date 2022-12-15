@@ -3,6 +3,8 @@
  * jack_bauer - prints all minutes
  */
 
+_putchar();
+
 void jack_bauer(void)
 {
 	int a, b, c, d;
