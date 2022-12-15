@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /**
  * @i: the input
@@ -8,5 +9,5 @@ int print_last_digit(int i)
 {
 	int j;
 	j = i % 10;
-	return (j);
+	return (j, j);
 }
