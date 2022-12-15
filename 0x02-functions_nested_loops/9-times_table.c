@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * _putchar - prints char
+ * times_table - prints char
+ * @c: para
+ */
+
 int _putchar(char c);
 void times_table(void)
 {
@@ -11,8 +17,9 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			int a;
+
 			a = x * y;
-			_putchar(a);
+			putchar(a);
 			_putchar(',');
 			_putchar(' ');
 		}
