@@ -1,7 +1,7 @@
 
 /**
- * @ a: first digit
- * @ b: second digit
+ * @a: first digit
+ * @b: second digit
  *
  * add - add them up
  *
