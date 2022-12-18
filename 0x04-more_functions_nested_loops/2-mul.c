@@ -1,7 +1,7 @@
 
 /**
- * @a: first arg
- * @b: second arg
+ * @a: first digit 
+ * @b: second digit
  * mul - multiply them
  * Return: ans
  */
