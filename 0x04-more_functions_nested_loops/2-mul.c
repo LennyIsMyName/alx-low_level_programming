@@ -1,8 +1,7 @@
-
 /**
- * @a: first digit 
+ * mul - multiplies them
  * @b: second digit
- * mul - multiply them
+ * @a: first digit
  * Return: ans
  */
 
