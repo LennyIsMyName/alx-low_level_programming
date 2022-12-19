@@ -18,10 +18,13 @@ void puts2(char *str)
 
 	for (i = str[0]; i < b; i++)
 	{
+		if (i % 2 == 0)
+		{
 		int a;
 
 		a = str[i];
 		_putchar(a);
 		i++;
+		}
 	}
 }
