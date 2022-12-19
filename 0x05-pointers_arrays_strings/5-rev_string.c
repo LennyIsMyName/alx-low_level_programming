@@ -18,7 +18,8 @@ void rev_string(char *s)
 	i = strlen(s);
 	while (i >= 0)
 	{
-		char a = s[i];
+		char a;
+		a = s[i];
 		_putchar('a');
 		i--;
 	}
