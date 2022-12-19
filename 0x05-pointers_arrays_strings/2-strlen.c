@@ -7,7 +7,7 @@
 
 int _strlen(char *s)
 {
-	char str = *s;
+	const char str = *s;
 
 	int length = strlen(str);
 	return (length);
