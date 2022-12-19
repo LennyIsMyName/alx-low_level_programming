@@ -3,23 +3,12 @@
 
 /**
  * rev_string - reverses a string
- * @c: the input
- * _putchar - prints it
- * @c: the characters
+ * @s: the input
+ * strrev - reverse a string
  * Return: nothing
  */
-int _putchar(int c);
 
 void rev_string(char *s)
 {
-	int i;
-
-	for (i = strlen(s); i > s[0]; i--)
-	{
-		int j;
-
-		j = s[i];
-		_putchar('j');
-	}
-	_putchar('\n');
+	strrev(s);
 }
