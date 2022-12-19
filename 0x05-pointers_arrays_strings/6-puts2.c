@@ -12,8 +12,11 @@ int _putchar(char c);
 void puts2(char *str)
 {
 	int i;
+	int b;
+	
+	b = strlen(str);
 
-	for (i = str[0]; i < strlen(str); i++)
+	for (i = str[0]; i < b; i++)
 	{
 		int a;
 
