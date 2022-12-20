@@ -17,6 +17,11 @@ void puts2(char *str)
 	b = strlen(str);
 	i = 0;
 
+	for (i = str[0]; i <= b; i = i + 2)
+	{
+		_putchar(i);
+	}
+/*
 	while (i < b)
 	{
 		int a;
@@ -30,6 +35,7 @@ void puts2(char *str)
 			i++;
 		}
 	}
+	*/
 	_putchar('\n');
 }
 
