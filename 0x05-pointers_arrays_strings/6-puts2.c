@@ -19,7 +19,9 @@ void puts2(char *str)
 
 	for (i = str[0]; i <= b; i = i + 2)
 	{
-		_putchar(i);
+		int c = str[i];
+
+		_putchar(c);
 	}
 /*
 	while (i < b)
