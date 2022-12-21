@@ -2,6 +2,9 @@
  * print_number - prints an interger.
  * @n: the integer to be printed.
  */
+
+int _putchar(char c);
+
 void print_number(int n)
 {
 	unsigned int num = n;
