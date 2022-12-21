@@ -1,6 +1,8 @@
 /**
  * print_number - prints an interger.
- * @n: the integer to be printed.
+ * _putchar - prints it out
+ * @c: the value
+ * Return: always zero
  */
 
 int _putchar(char c);
