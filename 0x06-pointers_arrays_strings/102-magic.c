@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - magic
  * Return: always 0
