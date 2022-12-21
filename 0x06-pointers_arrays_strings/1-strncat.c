@@ -3,10 +3,11 @@
 #include "main.h"
 
 /**
- * _strncat - concats to strings
+ * _strncat - concats strings
  * @dest: the first stirng
  * @src: the second string
  * @n: the integer
+ * Return: pointer dest
  */
 
 char *_strncat(char *dest, char *src, int n)
