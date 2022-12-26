@@ -2,8 +2,7 @@
 
 /**
  * print_numbers - prints the numbers
- * _putchar - prints to stdio
- * @c: the input
+ * putchar - prints to stdio
  * Return: zero
  */
 
