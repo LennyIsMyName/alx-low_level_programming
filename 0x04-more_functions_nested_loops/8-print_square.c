@@ -12,6 +12,8 @@ void print_square(int size)
 	int i;
 	int j;
 
+	size = size - 1;
+
 	if (size < 0 || size == 0)
 		putchar('\n');
 
