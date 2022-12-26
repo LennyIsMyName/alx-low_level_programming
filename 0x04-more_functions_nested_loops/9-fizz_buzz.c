@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - entry point 
  * Return: zero
  */
 
@@ -24,6 +24,6 @@ int main(void)
 			printf("%d", i);
 		putchar(' ');
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
