@@ -4,23 +4,18 @@
 /**
  * rev_string - reverses a string
  * @s: the input
- * _putchar - prints it
- * @c: the char
- * Return: nothing
  */
-
-int _putchar(char c);
 
 void rev_string(char *s)
 {
 	int i;
+	int j;
 
-	i = strlen(s);
-	while (i >= 0)
+	j = strlen(s) - 1;
+
+	for (i = j; i >= 0; i--)
 	{
-		char a;
-		a = s[i];
-		_putchar(a);
-		i--;
+		putchar(s[i]);
 	}
+	putchar('\n');
 }
