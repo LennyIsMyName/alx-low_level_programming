@@ -27,10 +27,9 @@ void puts_half(char *str)
 		putchar('\n');
 	} else
 	{
-		n = (b - 1) / 2;
-		c = n + 1;
+		n = b/2;
 
-		for (i = c; i < b; i++)
+		for (i = n; i < b; i++)
 		{
 			putchar(str[i]);
 		}
