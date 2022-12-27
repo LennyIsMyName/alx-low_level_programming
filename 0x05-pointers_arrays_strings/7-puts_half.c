@@ -18,7 +18,7 @@ void puts_half(char *str)
 	if (b % 2 != 0)
 	{
 		n = (b - 1) / 2;
-		c = n + 2;
+		c = n + 1;
 
 		for (i = c; i < b; i++)
 		{
@@ -27,7 +27,7 @@ void puts_half(char *str)
 		putchar('\n');
 	} else
 	{
-		n = b/2;
+		n = b / 2;
 
 		for (i = n; i < b; i++)
 		{
