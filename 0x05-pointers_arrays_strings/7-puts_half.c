@@ -11,15 +11,16 @@ void puts_half(char *str)
 	int i;
 	int n;
 	int b;
+	int c;
 
 	b = strlen(str);
 
-	if (b % 2 == 0)
+	if (b % 2 != 0)
 	{
 		n = (b - 1) / 2;
-		n = n + 1;
+		c = n + 2;
 
-		for (i = n; i < b; i++)
+		for (i = c; i < b; i++)
 		{
 			putchar(str[i]);
 		}
@@ -27,8 +28,9 @@ void puts_half(char *str)
 	} else
 	{
 		n = (b - 1) / 2;
+		c = n + 1;
 
-		for (i = n; i < b; i++)
+		for (i = c; i < b; i++)
 		{
 			putchar(str[i]);
 		}
