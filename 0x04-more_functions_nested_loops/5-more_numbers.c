@@ -2,19 +2,19 @@
 
 void more_numbers(void)
 {
-	int i;
-	int j;
-	int k;
+	int i, j;
 
-	for (i = 0; i < 10; i++)
+	for(i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; j < 15; j++)
 		{
-			putchar(j + '0');
-		}
-		for (k = 0; k < 6; k++)
-		{
-			putchar((k + 10) + '0');
+			if (j < 10)
+				putchar(j + '0');
+			else if (j > 9)
+			{
+				putchar((j/10)+'0');
+				putchar((j%10)+'0');
+			}
 		}
 		putchar('\n');
 	}
