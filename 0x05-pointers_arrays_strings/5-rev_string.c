@@ -12,7 +12,7 @@ void rev_string(char *s)
 	int i;
 	int j;
 	unsigned char a;
-	unsigned len = strlen((const char *)s);
+	unsigned int len = strlen((const char *)s);
 
 	for (i = 0, j = len - 1; i < j; i++, j--)
 	{
