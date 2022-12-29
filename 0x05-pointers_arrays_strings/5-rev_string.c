@@ -6,16 +6,18 @@
  * @s: the input
  */
 
+
 void rev_string(char *s)
 {
 	int i;
 	int j;
+	unsigned char a;
+	unsigned len = strlen((const char *)s);
 
-	j = strlen(s) - 1;
-
-	for (i = j; i >= 0; i--)
+	for (i = 0, j = len - 1; i < j; i++, j--)
 	{
-		putchar(s[i]);
+		a = s[i];
+		s[i] = s[j];
+		s[j] = a;
 	}
-	putchar('\n');
 }
