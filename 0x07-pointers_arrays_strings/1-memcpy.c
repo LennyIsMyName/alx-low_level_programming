@@ -5,7 +5,7 @@
  * @dest: destination
  * @src: source
  * @n: n times
- * return: dest
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
