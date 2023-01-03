@@ -1,5 +1,12 @@
 #include <string.h>
 
+/**
+ * _strspn - checks for number of same chars in string b
+ * @s: string to check in
+ * @accept: string to check from
+ * Return: l
+ */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, l;
@@ -12,10 +19,9 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[j])
 			{
 				l++;
-				break;
 			}
 		}
 	}
-				return (l);
+	return (l);
 }
 
