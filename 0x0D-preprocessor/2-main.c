@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - prints the filename
+ * Return: 0
+ */
 
 #define MYNAME __FILE__
 
