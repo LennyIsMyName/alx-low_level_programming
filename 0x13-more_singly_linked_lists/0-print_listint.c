@@ -1,20 +1,30 @@
 #include <stdlib.h>
 
+/**
+ * print_listint - lists all cotents in list
+ * @h: pointer to first node
+ * Return: number of nodes
+ */
+
 size_t print_listint(const listint_t *h)
 {
 	size_t count;
-	listint_t *temp;
 
 	count = 0;
-	temp = h;
 	if (h == NULL)
 		return (count);
 	else
 	{
-		while (temp->next != NULL)
+		while (h->next != NULL)
 		{
-			printf("%d", temp->n);
-			temp = temp->next;
+			printf("%d", h->n);
+			h = h->next;
+			count++;
+		}
+		
+		if (h->next != NULL)
+		{
+			printf("%d", h->n);
 			count++;
 		}
 	}
