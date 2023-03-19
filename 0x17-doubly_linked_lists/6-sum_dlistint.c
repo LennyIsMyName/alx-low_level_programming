@@ -9,7 +9,6 @@ int sum_dlistint(dlistint_t *head)
 	tp = head;
 	if (head == NULL)
 		return (0);
-	
 	while (tp != NULL)
 	{
 		counter += tp->n;
