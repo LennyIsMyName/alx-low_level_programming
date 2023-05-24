@@ -1,11 +1,25 @@
-
+#include <stdlib.h>
 
 int _atoi(char *s)
 {
-	unsigned int a;
+	int i;
 
-	if (isdigit(s))
-		return (0);
-	a = unsigned int atoi(s);
+	for (i = 0; i < strlen(s); i++)
+	{
+		if (isdigit(s[i]))
+		{
+			putchar(s[i]);
+		}
+	}
+
+	return (0);
 }
+//	unsigned int a;
+//
+//	if (isdigit(s))
+//		return (0);
+//	a = unsigned int atoi(s);
+
+//	return (int atoi(s));
+
 
