@@ -17,10 +17,10 @@ $(NAME): $(OBJ)
 
 
 clean:
-	rm -f $(NAME) *~ .*~
+	$(RM) $(NAME) *~ .*~
 oclean: 
-	rm -f $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: 
-	rm -f $(OBJECTS) $(NAME) *~ .*~
-re: clean all 
+	$(RM) $(OBJ) $(NAME) *~ .*~
+re: fclean all $(OBJ) 
