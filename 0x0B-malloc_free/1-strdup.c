@@ -9,21 +9,17 @@
 
 char *_strdup(char *str)
 {
-	unsigned int le, i;
+	unsigned int le;
 	char *c;
 
-	le = strlen(str);
-	le = le + 1;
+	le = strlen(str) + 1;
 
 	if (str == NULL)
 		return (NULL);
 	c = (char *) malloc(sizeof(char) * le);
 
-	for (i = 0; i < le; i++)
-		c[i] = str[i];
-	if (c)
-		return (c);
-	else
+	if (c == NULL)
 		return (NULL);
+	memcpy(c, str, le);
 	return (c);
 }
