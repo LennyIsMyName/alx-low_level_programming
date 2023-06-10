@@ -8,13 +8,12 @@
  * @owner: owner
  */
 
-struct 
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog;
 
-typedef struct dog mi_dog;
 void asn_dog(struct dog *d, char *name, float age, char *owner);
 #endif /* _DOG_H */
